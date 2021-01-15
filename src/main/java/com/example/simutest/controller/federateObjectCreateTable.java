@@ -42,6 +42,7 @@ public class federateObjectCreateTable {
     }
 
     public static void main(String[] args) {
+        //数据库表操作，查询federateObject表，-1不是实例，有些是对象，有些是实例
         String parameterName = "name1,name2,name3,name4";
         String parameterType = "int,string,double,boolean";
         String tableName = "objectName";
